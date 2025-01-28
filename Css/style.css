@@ -1,0 +1,143 @@
+#Titulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Titulo:hover{
+    cursor: all-scroll;
+}
+
+.tabla {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 2px;
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid #000; 
+}
+
+.celda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-size: 12px;
+}
+.tecla {
+    background-color: bisque;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+  
+#res{
+    font-size: 18px;
+}
+
+#BotonRegresar{
+    margin-top: 30px;
+}
+
+#BotonSiu{
+    margin-left: 10px;
+}
+
+#descripcion {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #000;
+}
+  /*Estilos para el Boton */
+.Button{
+    font-family: monospace;
+    font-size: x-large;
+    transition-duration: 0.2s;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: greenyellow; 
+    color: black; 
+    border: 2px solid green;
+    cursor: pointer;
+}
+  
+.Button:hover{
+    transform: scale(1.1);
+    border-radius: 14px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: black;
+    background-color: white;
+}
+
+#BotonCerrar{
+    background-color: orange; 
+}
+
+.contenedor-siu{
+    position: relative;
+    top: 50px;
+    left: 35%;
+}
+
+.contenedor-boton{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Contenedor{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+
+.cua{
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: aparecer 0.5s ease-out;
+}
+
+/*Animacion de aparecer el recuadro */
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+      transform: translateX(-50%) translateY(-20px);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translateX(-50%) translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+}
+
+@media only screen and (max-width: 524px){
+    #Titulo{
+        text-align: center;
+        color: burlywood;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .contenedor-siu{
+        position: relative;
+        top: 50px;
+        left: 2%;
+    }
+}
