@@ -17,24 +17,20 @@ Este proyecto es una implementación de la tabla periódica en formato web, dise
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/tu-usuario/tabla-periodica-web.git
-Abre el archivo index.html en tu navegador:
-bash
-Copiar
-Editar
-open index.html
-Uso
-Haz clic en el botón "Ver Tabla Periódica" para mostrar la tabla.
-Utiliza el botón "Buscar Elemento" para ingresar el símbolo de un elemento químico y obtener información sobre él.
-Disfruta de la animación interactiva con el botón "SIU".
-Autor
+2. Abre el archivo index.html en tu navegador:
+```bash
+   open index.html
+
+## Uso
+1-. Haz clic en el botón "Ver Tabla Periódica" para mostrar la tabla.
+2-. Utiliza el botón "Buscar Elemento" para ingresar el símbolo de un elemento químico y obtener información sobre él.
+3-. Disfruta de la animación interactiva con el botón "SIU".
+
+## Autor
 Gustavo Sanchez Villalva
 Este proyecto fue desarrollado como parte de un aprendizaje práctico en tecnologías web.
 
-Licencia
+## Licencia
 Este proyecto está bajo la licencia MIT.
-
-arduino
-Copiar
-Editar
-
+```bash
 Todo está junto para que lo copies y lo uses sin problema. 😊
